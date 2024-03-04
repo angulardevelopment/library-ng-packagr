@@ -1,16 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'lib-format-code',
+  selector: 'lib-awesome',
   template: `
     <p>
-      format-code works! perfect
+      awesome works!
     </p>
   `,
   styles: [
   ]
 })
-export class FormatCodeComponent implements OnInit {
+export class AwesomeComponent implements OnInit {
 
   constructor() { }
 

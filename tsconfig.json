@@ -5,11 +5,17 @@
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
-    "strict": true,
+    "strict": false,
     "noImplicitOverride": true,
     "paths": {
+      "awesome": [
+        "dist/awesome"
+      ],
       "format-code": [
         "dist/format-code"
+      ],
+      "toast": [
+        "dist/toast"
       ]
     },
     "noPropertyAccessFromIndexSignature": true,
