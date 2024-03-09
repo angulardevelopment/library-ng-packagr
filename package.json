@@ -9,7 +9,8 @@
     "test": "ng test",
     "toast:build": "ng-packagr -p projects/toast/package.json",
     "awesome:build": "ng-packagr -p projects/awesome/package.json",
-    "format-code:build": "ng-packagr -p projects/format-code/package.json"
+    "format-code:build": "ng-packagr -p projects/format-code/package.json",
+    "pack-lib": "cd dist/toast && npm pack"
   },
   "private": true,
   "dependencies": {
@@ -22,6 +23,7 @@
     "@angular/platform-browser-dynamic": "^14.1.0",
     "@angular/router": "^14.1.0",
     "rxjs": "~7.5.0",
+    "toast": "file:dist/toast/toast-0.0.1.tgz",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
   },
