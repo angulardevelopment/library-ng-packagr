@@ -22,6 +22,9 @@ I'm Sam, and I'm passionate about product engineering and web development. I cre
 ### About the app
 Created library.
 
+### Packages used
+-   "ng-packagr": "^14.1.0"
+
 ## Subscribe and Stay Updated!
 
 Don't miss out on new videos! Subscribe to my channel and hit the notification bell 🔔 to receive updates whenever I upload fresh content. Let's learn, laugh, and explore together!
