@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormatCodeModule } from 'projects/format-code/src/public-api';
 import { ToastModule } from 'toast';
+import { AwesomeModule } from 'awesome';
 // import { ToastModule } from 'projects/toast/src/public-api';
 
 @NgModule({
@@ -15,8 +16,8 @@ import { ToastModule } from 'toast';
     BrowserModule,
     AppRoutingModule,
     FormatCodeModule,
-    ToastModule.forRoot({ apiKey: 'shhhhh' })
-
+    ToastModule.forRoot({ apiKey: 'shhhhh' }),
+AwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

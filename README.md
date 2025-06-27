@@ -21,6 +21,10 @@ I'm Sam, and I'm passionate about product engineering and web development. I cre
 
 ### About the app
 Created library.
+ng-packagr -p package.json
+cd dist/toast
+npm pack
+
 
 ### Packages used
 -   "ng-packagr": "^14.1.0"
